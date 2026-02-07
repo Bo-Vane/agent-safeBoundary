@@ -1,0 +1,5 @@
+{"type": "GRANT", "rid": "r0", "capability": "exec:test", "scope": "repo_sim/tests/**", "lease_expires_at": 1770000768.9232018, "ts": 1770000648.9235969}
+{"type": "GRANT", "rid": "r0", "capability": "write:src", "scope": "repo_sim/src/auth/login.py", "lease_expires_at": 1770000948.924526, "ts": 1770000648.9248571}
+{"type": "DENY", "rid": "r0", "capability": "network:egress", "scope": "pip install somepkg", "reason": "拒绝：违反约束 no-network（network:egress 被硬禁止）", "suggestion": ["如果确实需要联网：请用户解除 no-network 约束，或创建新需求节点显式升级权限", "优先尝试离线方案（使用本地缓存/锁文件/镜像）"], "ts": 1770000648.9268878}
+{"type": "GRANT", "rid": "r0", "capability": "exec:test", "scope": "repo_sim/tests/**", "lease_expires_at": 1770000768.9272988, "ts": 1770000648.9276059}
+{"type": "GRANT", "rid": "r0", "capability": "exec:test", "scope": "repo_sim/tests/**", "ts": 1770376178.2307985}
